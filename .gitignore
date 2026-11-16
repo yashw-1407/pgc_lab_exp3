@@ -1,0 +1,55 @@
+# ==============================================================================
+# Git Ignore Configuration
+# Parallel and GPU Computing Lab - Experiment 5: Synchronization Mechanisms
+# ==============================================================================
+
+# Compiled binaries and executables (Linux / Windows / macOS)
+atomic
+barrier
+compare_sync
+critical
+race
+semaphore
+
+*.exe
+*.out
+*.app
+*.bin
+
+# Object files and libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Debugging and symbol files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.directory
+
+# Operating System temporary and metadata files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Explicit inclusions (ensuring vital project assets are always tracked)
+!.gitignore
+!README.md
+!*.c
+!results/
+!results/**
+!screenshots/
+!screenshots/**
